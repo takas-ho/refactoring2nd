@@ -1,0 +1,28 @@
+{
+    "extends": ["eslint:recommended"],
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    },
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    }
+}
