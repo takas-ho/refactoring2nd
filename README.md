@@ -2,5 +2,11 @@
 
 ```
 yarn install
-yarn jest --no-cache --coverage --watchAll
+yarn jest --no-cache --watchAll
+```
+or
+
+```
+npm install
+npm test -- --no-cache --watchAll
 ```
